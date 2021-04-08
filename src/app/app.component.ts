@@ -22,6 +22,7 @@ export class AppComponent  {
  }  
 }  
 
+
 export class User {  
  mobileNumber ?: string; 
  email ?:string; 
