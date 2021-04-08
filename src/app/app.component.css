@@ -1,3 +1,7 @@
-p {
-  font-family: Lato;
+table, th, td {
+  border: 1px solid black;
+}
+
+.error{
+  color: red;
 }

@@ -6,7 +6,8 @@ import { NgForm } from '@angular/forms';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
- mobNumberPattern = "^((\\+91-?)|0)?[0-9]{10}$";  
+ mobNumberPattern = "^((\\+91-?)|0)?[0-9]{10}$"; 
+ emailPattern = "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"; 
  isValidFormSubmitted = false;  
  user = new User();  
 
@@ -22,5 +23,6 @@ export class AppComponent  {
 }  
 
 export class User {  
- mobileNumber ?: string;  
+ mobileNumber ?: string; 
+ email ?:string; 
 }  
