@@ -6,7 +6,7 @@ import { NgForm } from '@angular/forms';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  mobNumberPattern = "^((\\+91-?)|0)?[0-9]{10}$";  
+ mobNumberPattern = "^((\\+91-?)|0)?[0-9]{10}$";  
  isValidFormSubmitted = false;  
  user = new User();  
 
@@ -18,7 +18,7 @@ export class AppComponent  {
    }  
    this.isValidFormSubmitted = true;  
    form.resetForm();  
-}  
+ }  
 }  
 
 export class User {  
